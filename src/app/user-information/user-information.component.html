@@ -1,0 +1,11 @@
+<div class="container" *ngFor="let userinfo of userInformation">
+    <div>
+        <b>Name</b> : {{userinfo.name}} <br>
+        <b>User Name</b> : {{userinfo.username}} <br>
+        <b>Email</b> : {{userinfo.email}} <br>
+        <b>Address</b> : {{userinfo.address.suite}}, {{userinfo.address.street}}, {{userinfo.address.city}}, {{userinfo.address.zipcode}} <br>
+        <b>Phone Number</b> : {{userinfo.phone}} <br>
+        <b>Company</b> : {{userinfo.company.name}} <br>
+        <br><br>
+    </div>
+</div>
